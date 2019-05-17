@@ -116,3 +116,26 @@ input[type=text] {
     height: 200px;
     width: 100%;
 }
+
+.gallery {
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 180px;
+}
+  
+.gallery:hover {
+    border: 1px solid #777;
+}
+  
+.gallery img {
+    width: 182px;
+    height: 300px;
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+}
