@@ -46,6 +46,7 @@ header{
   font-size: xx-large;
   padding: 30px;
   width: 30%;
+  border: 2px solid #cccccc;
 }   
 
 /* Upper nav bar */
@@ -79,6 +80,7 @@ h2 {
     margin-left: 0px;
     margin-top: 0px;
     padding: 30px;
+    border-bottom: 3px solid #dddddd;
 }
 .wrapper {
     margin:0 auto 0 auto;
@@ -92,4 +94,25 @@ h2 {
 #bio-image {
     float: left;
     padding: 0 20px 15px 0;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    font-size: medium;
+    cursor: pointer;
+}
+input[type=text] {
+        width: 100%;
+        padding: 15px 20px;
+        margin: 15px 0;
+        box-sizing: border-box;
+}
+#message {
+    height: 200px;
+    width: 100%;
 }
