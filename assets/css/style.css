@@ -1,3 +1,8 @@
+/* *{
+    margin:0;
+    padding:0;
+} */
+
 html, body {
     height: 100%;
     margin:0;
@@ -6,10 +11,9 @@ html, body {
     color: #777777;
 }
 
-/* img and paragraphs */
 .content {
     min-height: 100%;
-    margin-bottom:-50px;
+    margin-bottom:-120px;
 }
 
 .content::after{
@@ -17,32 +21,22 @@ html, body {
     display:block;
 }
 
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: justify;
-    line-height: 1.5;
-}
-
-/* footer, .content::after {
-        border-top:8px solid #4aaaa5;
-        background-color: rgb(99, 98, 98);
-        color:#eee;
-        text-align: center;
-        padding: 10px;
-        height: 50px;
-} */
-
-footer {
+footer, .content::after{
     padding: 30px 0;
+    height: 120px;
+    position: relative;
     clear: both;
-    font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
     text-align: center;
+    color: #ffffff;
     background: #666666;
     border-top: 8px solid #4aaaa5;
-    height: 50px;
-  }
+    font-size: 12px;
+}
+
+p { text-align: justify;
+    line-height: 1.8;
+}
+
 /* Name header */
 header{
   background-color: #4aaaa5;
@@ -52,7 +46,6 @@ header{
   font-size: xx-large;
   padding: 30px;
   width: 30%;
-
 }   
 
 /* Upper nav bar */
@@ -62,9 +55,11 @@ ul {
     padding: 0;
     overflow: hidden;
 }
+
 li {
     float: right;
 }
+
 li a {
     display: block;
     color:#111;
@@ -73,6 +68,7 @@ li a {
     text-decoration: none;
     font-size:20px;
 }
+
 li a:hover:not(.active) {
     background-color: #4aaaa5;
 }
@@ -82,15 +78,18 @@ h2 {
     color: #4aaaa5;
     margin-left: 0px;
     margin-top: 0px;
+    padding: 30px;
 }
 .wrapper {
-    margin:0 auto 60px auto;
+    margin:0 auto 0 auto;
     width: 960px;
-    /* min-height: 100%; */
     padding: 30px;
     background-color: white;
+    min-height: 100%;
+    margin-bottom:50%;
 }
 
 #bio-image {
     float: left;
+    padding: 0 20px 15px 0;
 }
